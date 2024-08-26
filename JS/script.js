@@ -46,6 +46,7 @@ ed inserirle al interno del elemento recuperato dal DOM */
 gameLevel.addEventListener('submit', function (event) {
     event.preventDefault()
 
+    grid.innerHTML = ''
     let rows;
     let col;
 
