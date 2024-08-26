@@ -26,7 +26,6 @@
     height: calc(100% / 10);
     flex-basis: calc(100% / 10);
     border: solid black 1px;
-    color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +33,7 @@
 
 .cell:hover {
     cursor: pointer;
-    filter: opacity(0.5);
+    color: white;
 }
 
 /* GENERICS */
