@@ -23,8 +23,6 @@
 }
 
 .cell {
-    height: calc(100% / 10);
-    flex-basis: calc(100% / 10);
     border: solid black 1px;
     display: flex;
     justify-content: center;
@@ -93,4 +91,20 @@ a {
 
 .heart::before {
     content: '\2764'
+}
+
+/* DIFFICULTY LEVELS */
+.normal {
+    height: calc(100% / 9);
+    flex-basis: calc(100% / 9);
+}
+
+.hard {
+    height: calc(100% / 7);
+    flex-basis: calc(100% / 7);
+}
+
+.easy {
+    height: calc(100% / 10);
+    flex-basis: calc(100% / 10);
 }
